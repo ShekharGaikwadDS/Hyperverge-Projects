@@ -6,9 +6,10 @@
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0">
 	<title>Portfolio Project</title>
+	<link rel="Stylesheet" href="C:\Users\shekh\OneDrive\Desktop\style1.css">
 </head>
 
-<body>
+<body >
 	<!--Header(start)-->
 	<table id="header" border="0" width="100%"
 		cellpadding="0" cellspacing="0" bgcolor="#E27D60">
@@ -57,9 +58,9 @@
 						</td>
 
 						<td>
-							<a href="#projects" style="text-decoration:none">
+							<a href="#casestudy" style="text-decoration:none">
 								<font face="Verdana" size="5" color=black>
-									Projects
+									Case Study
 								</font>
 							</a>
 						</td>
@@ -145,7 +146,7 @@
 
 					<tr>
 						<td width="40%">
-							<img src="C:\Users\shekh\OneDrive\Desktop\d1.jpg">
+							<img src="C:\Users\shekh\OneDrive\Desktop\doodle.jpg">
 						</td>
 
 						<td width="60%">
@@ -184,7 +185,7 @@ Artificial intelligence is a never-ending puzzle that I am passionately engaged 
 
 
 	<!--Projects(start)-->
-	<table id="projects" border="0" width="100%"
+	<table id="casestudy" border="0" width="100%"
 		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
 		<tr>
 			<td>
@@ -373,6 +374,7 @@ Artificial intelligence is a never-ending puzzle that I am passionately engaged 
 
 
 	<!--Contact(start)-->
+	<form action='https://formspree.io/f/mzbovwzr' method='POST'>
 	<table id="contact" border="0" width="100%"
 		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
 		<tr>
@@ -405,7 +407,7 @@ Artificial intelligence is a never-ending puzzle that I am passionately engaged 
 									<td width="70%">
 										<font face="Verdana" size="4"
 											color="#ffffff">
-											<input type="text" size="40">
+											<input type="text" size="40" name="Name">
 										</font>
 									</td>
 								</tr>
@@ -419,7 +421,7 @@ Artificial intelligence is a never-ending puzzle that I am passionately engaged 
 									<td width="70%">
 										<font face="Verdana" size="4"
 											color="#ffffff">
-											<input type="email" size="40">
+											<input type="email" size="40" name="email">
 										</font>
 									</td>
 								</tr>
@@ -433,7 +435,7 @@ Artificial intelligence is a never-ending puzzle that I am passionately engaged 
 									<td width="70%">
 										<font face="Verdana" size="4"
 											color="#ffffff">
-											<input type="number" size="12">
+											<input type="number" size="12" name="number">
 										</font>
 									</td>
 								</tr>
@@ -458,12 +460,13 @@ Artificial intelligence is a never-ending puzzle that I am passionately engaged 
 										
 									</td>
 									<td width="70%">
-										<button type="Submit">
+										<input type="submit" onclick="ValidateEmail(document.form1.text1)" value="submit">
 											<font face="Verdana"
 												size="4" color="black">
 												<b>Submit</b>
 											</font>
-										</button>
+										</form>
+										
 										<hr color="black">
 										<hr color="black">
 									</td>
