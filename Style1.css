@@ -1,0 +1,50 @@
+header{
+    background-color:blanchedalmond;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #header tr td:nth-child(1){
+    padding:1%;
+    width: 90%;
+    border: 0pt;
+    }
+    
+    #header tr:nth-child(2){
+    font-family: "Lucida Console", "Courier New", monospace;;
+    font-weight: bold;
+    }
+
+.about{
+    background-color: black;
+    width:100%;
+}
+#about tr td:nth-child(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+#about tr:nth-child(3) td:nth-child(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.casestudy{
+    background-color:azure;
+}
+
+#casestudy tr:nth-child(3) td{
+font-family: 'Times New Roman', Times, serif;
+text-decoration: none;
+}
+hr{
+    color:blueviolet;
+}
+
+.achievements tr:nth-child(2) td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+
+.contact{
+    background-color:aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
